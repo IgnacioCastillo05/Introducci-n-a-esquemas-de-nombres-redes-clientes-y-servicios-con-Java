@@ -1,7 +1,11 @@
+package sockets;
 
-
-import java.io.*; 
-import java.net.*; 
+import java.io.BufferedReader;
+import java.io.IOException; 
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
+import java.net.UnknownHostException;
 public class EchoClient {
     public static void main(String[] args) throws IOException { 
         Socket echoSocket = null; 
@@ -22,10 +26,11 @@ public class EchoClient {
         } 
         BufferedReader stdIn = new BufferedReader( 
                                     new  InputStreamReader(System.in)); 
-        String userInput; 
+        String userInput;
+        System.out.println("Cliente conectado. Ingrese un número para calcular su cuadrado:");
         while ((userInput = stdIn.readLine()) != null) { 
             out.println(userInput); 
-            System.out.println("echo: " + in.readLine()); 
+            System.out.println(in.readLine()); 
         } 
         out.close(); 
         in.close(); 
