@@ -15,3 +15,8 @@ Implementamos los metodos sigueridos en la guia
 - **getRef:** Nos retorna el contenido de la pagina en formato `HTML`
 
 ![1](img/ejercicio1.png)
+
+
+
+![1](img/ejercicio2.png)
+![1](img/ejercicio2.1.png)
