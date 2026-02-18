@@ -13,3 +13,5 @@ Implementamos los metodos sigueridos en la guia
 - **getQuery:** Nos retorna la consulta
 - **getFile:** Nos retorna el path y el query
 - **getRef:** Nos retorna el contenido de la pagina en formato `HTML`
+
+![1](img/ejercicio1.png)
