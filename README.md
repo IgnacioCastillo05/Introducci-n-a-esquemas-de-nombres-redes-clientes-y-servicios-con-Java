@@ -17,6 +17,11 @@ Implementamos los metodos sigueridos en la guia
 ![1](img/ejercicio1.png)
 
 
-
+url
 ![1](img/ejercicio2.png)
 ![1](img/ejercicio2.1.png)
+
+sockets
+![1](img/sockets1.png)
+![1](img/sockets2.png)
+
