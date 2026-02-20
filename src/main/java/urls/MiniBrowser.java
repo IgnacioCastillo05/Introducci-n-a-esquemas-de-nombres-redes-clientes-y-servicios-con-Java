@@ -59,4 +59,20 @@ public class MiniBrowser {
             System.err.println("Error al leer o guardar el contenido: " + e.getMessage());
         }
     }
+
+    /**
+     * Obtiene el contenido de una URL como String.
+     * Usado por HttpServer para servir páginas externas.
+     */
+    public static String fetchUrl(String urlString) throws IOException, MalformedURLException {
+        URL url = new URL(urlString);
+        StringBuilder content = new StringBuilder();
+        try (BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                content.append(line).append("\n");
+            }
+        }
+        return content.toString();
+    }
 }

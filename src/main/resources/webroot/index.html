@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor HTTP - Lab 3 ARSW</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Servidor HTTP - Lab 3 ARSW</h1>
+
+    <h2>Obtener:</h2>
+    <form action="/fetch" method="get">
+        <input type="text" name="url" placeholder="http://www.example.com" required>
+        <button type="submit">Obtener</button>
+    </form>
+
+    <h3>Ejemplos:</h3>
+    <ul>
+        <li><a href="/fetch?url=https://www.escuelaing.edu.co/es/">Escuelaing.edu.co</a></li>
+        <li><a href="/fetch?url=http://www.google.com">Google</a></li>
+    </ul>
+</body>
+</html>
