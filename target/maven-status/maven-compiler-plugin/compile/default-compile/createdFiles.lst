@@ -1,7 +1,0 @@
-main\java\datagramas\DatagramTimeServer.class
-main\java\datagramas\AutoUpdateClient.class
-rpc\RpcApp.class
-p2p\P2pApp.class
-rmi\RmiApp.class
-sockets\SocketsApp.class
-main\java\datagramas\DatagramTimeClient.class
