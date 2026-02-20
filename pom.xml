@@ -23,6 +23,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <exec.mainClass>urls.MiniBrowser</exec.mainClass>
     </properties>
 
     <!-- Sin dependencias externas: todo usa java.net y java.rmi nativos -->
@@ -69,7 +70,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <mainClass>urls.URLReader</mainClass> <!-- coincide con tu clase actual -->
+                    <mainClass>${exec.mainClass}</mainClass>
                 </configuration>
             </plugin>
 
@@ -81,7 +82,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>urls.URLReader</mainClass>
+                            <mainClass>urls.UrlInfo</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
