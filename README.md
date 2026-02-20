@@ -86,7 +86,7 @@ java -cp target/classes sockets.EchoClient
 
 ## HTTP Server
 
-### Ejercicio 4.5.1 - Servidor web con múltiples solicitudes
+### Ejercicio - Servidor web con múltiples solicitudes
 
 Partiendo del `HttpServer` básico que solo atendía una solicitud, se implementó un servidor web que soporta **múltiples solicitudes seguidas** (no concurrentes). El servidor puede retornar archivos HTML, CSS e imágenes desde el directorio `src/main/resources/webroot/`.
 
