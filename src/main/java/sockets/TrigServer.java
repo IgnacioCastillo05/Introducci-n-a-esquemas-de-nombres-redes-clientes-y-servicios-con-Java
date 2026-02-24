@@ -15,7 +15,7 @@ import java.util.logging.Logger;
  */
 public class TrigServer {
 
-    private static final int PORT = 35000;
+    private static final int PORT = 35002;
     private static final Logger logger = Logger.getLogger(TrigServer.class.getName());
     private static volatile boolean running = true;
 

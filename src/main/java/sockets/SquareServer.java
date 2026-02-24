@@ -17,7 +17,7 @@ import java.util.logging.Logger;
  */
 public class SquareServer {
 
-    private static final int PORT = 35000;
+    private static final int PORT = 35001;
     private static final Logger logger = Logger.getLogger(SquareServer.class.getName());
     private static volatile boolean running = true;
 

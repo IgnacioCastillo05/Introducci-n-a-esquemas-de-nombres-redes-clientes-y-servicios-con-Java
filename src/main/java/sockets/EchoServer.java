@@ -1,4 +1,4 @@
-package src.main.java.sockets;
+package sockets;
 
 import java.io.BufferedReader;
 import java.io.IOException; 
@@ -30,7 +30,7 @@ public class EchoServer {
         String inputLine, outputLine; 
         while ((inputLine = in.readLine()) != null) { 
             System.out.println("Mensaje:" + inputLine); 
-            outputLine = "Respuesta" + inputLine ; 
+            outputLine = "Respuesta: " + inputLine ; 
             out.println(outputLine); 
             if (outputLine.equals("Respuestas: Bye.")) 
                 break; 
