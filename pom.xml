@@ -23,7 +23,7 @@
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <exec.mainClass>urls.MiniBrowser</exec.mainClass>
+        <exec.mainClass>sockets.HelloWebApp</exec.mainClass>
     </properties>
 
     <!-- Sin dependencias externas: todo usa java.net y java.rmi nativos -->
@@ -82,7 +82,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>urls.UrlInfo</mainClass>
+                            <mainClass>sockets.HelloWebApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
