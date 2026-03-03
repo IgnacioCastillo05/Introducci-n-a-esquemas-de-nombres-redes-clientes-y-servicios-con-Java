@@ -84,7 +84,6 @@ public class HelloWebApp {
 
 The application registers three REST endpoints and delegates the server startup to `HttpServerOriginal`. Notice that `euler()` is a regular Java method called from a lambda — this illustrates that endpoint logic can be as simple or as complex as needed, and can call any existing business logic without coupling it to the framework. The static files configuration ensures that the frontend assets in `webroot/public/` are also available alongside the REST routes.
 
-![HelloWebApp running](img/rest4.png)
 
 ### How to Run
 ```bash
